@@ -1,0 +1,108 @@
+{
+  "$schema": "../schemas/corpus-registry.schema.json",
+  "schema": "mathematics-commons-corpus-registry/v1",
+  "observed_at_utc": "2026-08-12T19:57:48Z",
+  "edition_label": "independently_maintained_ai_produced_no_upstream_endorsement",
+  "programmes": [
+    {
+      "id": "stacks-project",
+      "title": "The Stacks Project",
+      "kind": "mutable_source_repository",
+      "upstream": "https://github.com/stacks/stacks-project",
+      "control_repository": "https://github.com/KokunoYumeto/mathematics-commons-stacks",
+      "literal_fork": "https://github.com/KokunoYumeto/stacks-project",
+      "rights_state": "source_license_verified_component_compliance_required",
+      "payload_publication": "permitted_subject_to_upstream_license",
+      "admission_state": "control_plane_initialized_no_edition_admitted"
+    },
+    {
+      "id": "open-logic-project",
+      "title": "Open Logic Project",
+      "kind": "mutable_source_repository",
+      "upstream": "https://github.com/OpenLogicProject/OpenLogic",
+      "control_repository": "https://github.com/KokunoYumeto/OpenLogic",
+      "literal_fork": "https://github.com/KokunoYumeto/OpenLogic",
+      "rights_state": "cc_by_4_0_source_component_audit_required",
+      "payload_publication": "permitted_subject_to_attribution_and_component_audit",
+      "admission_state": "literal_fork_discovered_no_locale_release_admitted"
+    },
+    {
+      "id": "openstax",
+      "title": "OpenStax catalogue",
+      "kind": "multi_repository_catalogue",
+      "upstream": "https://github.com/openstax",
+      "control_repository": "https://github.com/KokunoYumeto/openstax-global",
+      "literal_fork": null,
+      "rights_state": "per_title_and_per_component_audit_required",
+      "payload_publication": "fail_closed_until_title_admission",
+      "admission_state": "source_fleet_discovered_no_title_admitted"
+    },
+    {
+      "id": "mathematics-in-lean",
+      "title": "Mathematics in Lean",
+      "kind": "mutable_source_repository",
+      "upstream": "https://github.com/leanprover-community/mathematics_in_lean",
+      "control_repository": "https://github.com/KokunoYumeto/mathematics_in_lean",
+      "literal_fork": "https://github.com/KokunoYumeto/mathematics_in_lean",
+      "rights_state": "apache_2_0_upstream_pointer_verified",
+      "payload_publication": "permitted_subject_to_license_compliance",
+      "admission_state": "literal_fork_discovered_no_locale_release_admitted"
+    },
+    {
+      "id": "mathlib-explanatory-layer",
+      "title": "mathlib documentation and explanatory layer",
+      "kind": "formal_code_sidecar",
+      "upstream": "https://github.com/leanprover-community/mathlib4",
+      "control_repository": "https://github.com/KokunoYumeto/mathlib-docs-i18n",
+      "literal_fork": "https://github.com/KokunoYumeto/mathlib4",
+      "rights_state": "apache_2_0_upstream_pointer_verified",
+      "payload_publication": "permitted_subject_to_license_compliance",
+      "admission_state": "sidecar_initialized_no_translation_record_admitted"
+    },
+    {
+      "id": "kerodon",
+      "title": "Kerodon",
+      "kind": "mutable_web_reference",
+      "upstream": "https://kerodon.net/",
+      "control_repository": null,
+      "literal_fork": null,
+      "rights_state": "rights_hold_no_affirmative_public_translation_license_recorded",
+      "payload_publication": "metadata_only",
+      "admission_state": "rights_hold"
+    },
+    {
+      "id": "lurie-htt",
+      "title": "Higher Topos Theory",
+      "kind": "authored_monograph",
+      "upstream": "https://www.math.ias.edu/~lurie/",
+      "control_repository": null,
+      "literal_fork": null,
+      "rights_state": "rights_hold_permission_or_partnership_required",
+      "payload_publication": "metadata_only",
+      "admission_state": "rights_hold"
+    },
+    {
+      "id": "lurie-ha",
+      "title": "Higher Algebra",
+      "kind": "authored_manuscript",
+      "upstream": "https://www.math.ias.edu/~lurie/",
+      "control_repository": null,
+      "literal_fork": null,
+      "rights_state": "rights_hold_no_affirmative_public_translation_license_recorded",
+      "payload_publication": "metadata_only",
+      "admission_state": "rights_hold"
+    },
+    {
+      "id": "lurie-sag",
+      "title": "Spectral Algebraic Geometry",
+      "kind": "authored_manuscript",
+      "upstream": "https://www.math.ias.edu/~lurie/",
+      "control_repository": null,
+      "literal_fork": null,
+      "rights_state": "rights_hold_no_affirmative_public_translation_license_recorded",
+      "payload_publication": "metadata_only",
+      "admission_state": "rights_hold"
+    }
+  ]
+}
+

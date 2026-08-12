@@ -1,0 +1,35 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate control records
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for path in sorted(Path('.').rglob('*.json')):
+              json.loads(path.read_text(encoding='utf-8'))
+
+          registry = json.loads(Path('registry/corpora.json').read_text(encoding='utf-8'))
+          assert registry['edition_label'] == 'independently_maintained_ai_produced_no_upstream_endorsement'
+          ids = [item['id'] for item in registry['programmes']]
+          assert len(ids) == len(set(ids))
+          for item in registry['programmes']:
+              if item['rights_state'].startswith('rights_hold'):
+                  assert item['payload_publication'] == 'metadata_only'
+
+          releases = json.loads(Path('registry/releases.json').read_text(encoding='utf-8'))
+          assert releases['releases'] == []
+          print(f"validated {len(ids)} programme records and an empty release registry")
+          PY

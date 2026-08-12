@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KokunoYumeto/mathematics-commons-corpora/raw/main/schemas/corpus-registry.schema.json",
+  "title": "Mathematics Commons corpus registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "observed_at_utc", "edition_label", "programmes"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema": {"const": "mathematics-commons-corpus-registry/v1"},
+    "observed_at_utc": {"type": "string", "format": "date-time"},
+    "edition_label": {"const": "independently_maintained_ai_produced_no_upstream_endorsement"},
+    "programmes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "kind", "upstream", "control_repository", "literal_fork", "rights_state", "payload_publication", "admission_state"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "title": {"type": "string", "minLength": 1},
+          "kind": {"type": "string", "minLength": 1},
+          "upstream": {"type": "string", "format": "uri"},
+          "control_repository": {"type": ["string", "null"]},
+          "literal_fork": {"type": ["string", "null"]},
+          "rights_state": {"type": "string", "minLength": 1},
+          "payload_publication": {"type": "string", "minLength": 1},
+          "admission_state": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}
+
