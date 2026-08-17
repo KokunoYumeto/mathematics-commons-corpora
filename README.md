@@ -33,3 +33,6 @@ boundaries, not title-level or theorem-level completion.
 identify an official branch of Stacks, OpenStax, Open Logic, Lean/mathlib,
 Kerodon, or any work by Jacob Lurie.
 
+## Language editions
+
+- [Open Logic Project language editions](registry/open-logic-language-editions.json) records exact source identities, complete source-unit coverage, repositories, immutable releases, readers, and DOI lineages.
