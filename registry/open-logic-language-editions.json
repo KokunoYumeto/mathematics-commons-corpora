@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/open-logic-language-editions.schema.json",
   "schema": "mathematics-commons-open-logic-language-editions/v1",
-  "updated_at_utc": "2026-08-19T17:09:06Z",
+  "updated_at_utc": "2026-08-20T17:46:10Z",
   "edition_label": "independently_maintained_ai_produced_no_upstream_endorsement",
   "work": {
     "id": "open-logic-project",
@@ -10,16 +10,16 @@
   },
   "editions": [
     {
-      "id": "open-logic-text-pt-br-2026-08-18-r2",
+      "id": "open-logic-text-pt-br-2026-08-20-r4",
       "language_tag": "pt-BR",
       "language_label": "Português brasileiro",
       "edition_title": "The Open Logic Text — edição em português brasileiro",
-      "version": "2026-08-18-r2",
+      "version": "2026-08-20-r4",
       "release_state": "current",
       "production_disclosure": "independently_maintained_ai_produced_no_upstream_endorsement",
       "repository_url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR",
-      "release_url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-18-r2",
-      "reader_url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-18-r2/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
+      "release_url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r4",
+      "reader_url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r4/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
       "source_commit": "9620cc73f9c8e0ad003c514a5d3748f29611c4c0",
       "source_tree": "f67757bb9305b173634082ab4cefd5601a707a34",
       "source_unit_coverage": {
@@ -33,8 +33,8 @@
       "zenodo": {
         "concept_doi": "10.5281/zenodo.21973104",
         "concept_doi_url": "https://doi.org/10.5281/zenodo.21973104",
-        "version_doi": "10.5281/zenodo.22002664",
-        "version_doi_url": "https://doi.org/10.5281/zenodo.22002664"
+        "version_doi": "10.5281/zenodo.22032986",
+        "version_doi_url": "https://doi.org/10.5281/zenodo.22032986"
       }
     },
     {
