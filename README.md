@@ -36,4 +36,18 @@ Kerodon, or any work by Jacob Lurie.
 ## Language editions
 
 - [Open Logic Project language editions](registry/open-logic-language-editions.json) records exact source identities, complete source-unit coverage, repositories, immutable releases, readers, and DOI lineages.
-- [Grothendieck Translation Atlas](https://github.com/KokunoYumeto/ega-fga-sga) is the public landing page for EGA, FGA, and SGA editions in French, English, Spanish, Brazilian Portuguese, and Vietnamese, with live GitHub releases and preserved Zenodo snapshots linked separately.
+
+## Related editions
+
+Each link goes directly to a peer edition repository; there is no central hub. Coverage describes public releases and may trail local production.
+
+| Edition | Language | Public scope |
+|---|---|---|
+| [EGA — French](https://github.com/KokunoYumeto/ega-fr) | French | Complete declared EGA I–IV scope |
+| [EGA — English](https://github.com/KokunoYumeto/ega-en) | English | Complete declared EGA 0–IV scope |
+| [EGA/FGA — Spanish](https://github.com/KokunoYumeto/ega-fga-es) | Spanish | Validated partial EGA; FGA tranches A and B |
+| [SGA — Spanish](https://github.com/KokunoYumeto/sga-es) | Spanish | Complete 13-book linked edition |
+| [SGA — English](https://github.com/KokunoYumeto/sga-en) | English | Complete published scope; SGA 6 has mixed source alignment |
+| [EGA/FGA/SGA — Brazilian Portuguese](https://github.com/KokunoYumeto/ega-fga-sga-pt-br) | Brazilian Portuguese | Validated partial release, including complete EGA III-1 and SGA 5 readers |
+| [EGA/FGA/SGA — Vietnamese](https://github.com/KokunoYumeto/ega-fga-sga-vi) | Vietnamese | Validated partial release; current public readers are EGA |
+| [FGA — English (external)](https://github.com/thosgood/fga) | English | Independently maintained external edition |
