@@ -36,3 +36,4 @@ Kerodon, or any work by Jacob Lurie.
 ## Language editions
 
 - [Open Logic Project language editions](registry/open-logic-language-editions.json) records exact source identities, complete source-unit coverage, repositories, immutable releases, readers, and DOI lineages.
+- [Grothendieck Translation Atlas](https://github.com/KokunoYumeto/ega-fga-sga) is the public landing page for EGA, FGA, and SGA editions in French, English, Spanish, Brazilian Portuguese, and Vietnamese, with live GitHub releases and preserved Zenodo snapshots linked separately.
